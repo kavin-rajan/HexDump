@@ -49,7 +49,7 @@ unsigned char BufferWidthValidate(
 
 //******************************.FUNCTION_HEADER.****************************** 
 //Purpose : To validate the input BufferSize
-//Inputs  :  Size of bufferVariable
+//Inputs  : Size of bufferVariable
 //Outputs : Prints the HexValues and ASCII as output 
 //********************************************************************************** 
 void HexValuePrint(
@@ -71,8 +71,9 @@ void HexValuePrint(
 
     ucNumberOfCharRead = fread(ucBufferVariable, sizeof(unsigned char), usMaxWordLength, pFile);
 
-    while(ucNumberOfCharRead > 0){
-        //Local variables
+    while (ucNumberOfCharRead > 0)
+    {
+        // Local variables
         unsigned short usCounter=0;
 
         // Print the Line number

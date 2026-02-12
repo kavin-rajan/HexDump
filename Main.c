@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     }
     
     // Validate BufferVariableWidth
-    if(BufferWidthValidate(ucBufferVariableWidth, ucBufferVariableSize))
+    if (BufferWidthValidate(ucBufferVariableWidth, ucBufferVariableSize))
     {
         // Error in BufferSize input exit!!
         return 1;
